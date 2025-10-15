@@ -1,0 +1,17 @@
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+|         TIMESTAMP         |    EXEC_ID   |   TRANS_ID   |          FUNCTION         |         FILE         |  LINE  |                  MESSAGE                 |   PROC_TYPE  |    STATUS    |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+| 2025-10-15 09:32:17       | 66           | N/A          | main                      | main.py              | 12     | ExecutionID: 66 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: STARTING                         |              |              |
+| 2025-10-15 09:32:18       | 66           | N/A          | verificarPasta            | verificarArquivoInpu | 20     | Iniciando verificação da pasta de        | system       | information  |
+|                           |              |              |                           |                      |        | entrada                                  |              |              |
+| 2025-10-15 09:32:19       | 66           | N/A          | verificarPasta            | verificarArquivoInpu | 55     | Caminho da pasta a processar:            | system       | information  |
+|                           |              |              |                           |                      |        | U:\Financeiro\05- RPA\A                  |              |              |
+|                           |              |              |                           |                      |        | PROCESSAR\10.2025\14                     |              |              |
+| 2025-10-15 09:32:19       | 66           | N/A          | verificarPasta            | verificarArquivoInpu | 86     | Error: 'EnhancedLogger' object has no    | system       | failure      |
+|                           |              |              |                           |                      |        | attribute 'info' - Line: 78              |              |              |
+| 2025-10-15 09:32:20       | 66           | N/A          | main                      | main.py              | 52     | Error: 'EnhancedLogger' object has no    | system       | failure      |
+|                           |              |              |                           |                      |        | attribute 'info' - Line: 17              |              |              |
+| 2025-10-15 09:32:20       | 66           | N/A          | main                      | main.py              | 54     | ExecutionID: 66 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: FINISHED                         |              |              |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+

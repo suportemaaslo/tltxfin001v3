@@ -1,0 +1,17 @@
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+|         TIMESTAMP         |    EXEC_ID   |   TRANS_ID   |          FUNCTION         |         FILE         |  LINE  |                  MESSAGE                 |   PROC_TYPE  |    STATUS    |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+| 2025-10-12 22:23:48       | 44           | N/A          | enviaremail               | gmailService.py      | 203    | Email 'Start' enviado para:              | system       | information  |
+|                           |              |              |                           |                      |        | julio.gomes@maaslo.com.br,               |              |              |
+|                           |              |              |                           |                      |        | suporte@maaslo.com.br | Execução: 44 |   |              |              |
+|                           |              |              |                           |                      |        | Transação:                               |              |              |
+| 2025-10-12 22:23:49       | 44           | N/A          | main                      | main.py              | 12     | ExecutionID: 44 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: STARTING                         |              |              |
+| 2025-10-12 22:23:53       | 44           | N/A          | enviaremail               | gmailService.py      | 203    | Email 'Error' enviado para:              | system       | information  |
+|                           |              |              |                           |                      |        | julio.gomes@maaslo.com.br,               |              |              |
+|                           |              |              |                           |                      |        | suporte@maaslo.com.br | Execução: 44 |   |              |              |
+|                           |              |              |                           |                      |        | Transação:                               |              |              |
+| 2025-10-12 22:23:54       | 44           | N/A          | main                      | main.py              | 56     | Error: Teste de Erro - Line: 17          | system       | failure      |
+| 2025-10-12 22:23:54       | 44           | N/A          | main                      | main.py              | 59     | ExecutionID: 44 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: FINISHED                         |              |              |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+

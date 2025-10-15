@@ -1,0 +1,24 @@
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+|         TIMESTAMP         |    EXEC_ID   |   TRANS_ID   |          FUNCTION         |         FILE         |  LINE  |                  MESSAGE                 |   PROC_TYPE  |    STATUS    |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+| 2025-10-12 22:14:58       | 41           | N/A          | enviaremail               | gmailService.py      | 203    | Email 'Start' enviado para:              | system       | information  |
+|                           |              |              |                           |                      |        | julio.gomes@maaslo.com.br,               |              |              |
+|                           |              |              |                           |                      |        | suporte@maaslo.com.br | Execução: 41 |   |              |              |
+|                           |              |              |                           |                      |        | Transação:                               |              |              |
+| 2025-10-12 22:14:59       | 41           | N/A          | main                      | main.py              | 12     | ExecutionID: 41 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: STARTING                         |              |              |
+| 2025-10-12 22:15:00       | 41           | 18           | main                      | main.py              | 24     | Item Data: 18                            | system       | information  |
+| 2025-10-12 22:15:04       | 41           | 18           | enviaremail               | gmailService.py      | 203    | Email 'Error' enviado para:              | system       | information  |
+|                           |              |              |                           |                      |        | julio.gomes@maaslo.com.br,               |              |              |
+|                           |              |              |                           |                      |        | suporte@maaslo.com.br | Execução: 41 |   |              |              |
+|                           |              |              |                           |                      |        | Transação: 18                            |              |              |
+| 2025-10-12 22:15:04       | 41           | 18           | main                      | main.py              | 40     | Error: Teste de Erro - Line: 27          | system       | failure      |
+| 2025-10-12 22:15:09       | 41           | N/A          | enviaremail               | gmailService.py      | 203    | Email 'Finish' enviado para:             | system       | information  |
+|                           |              |              |                           |                      |        | julio.gomes@maaslo.com.br,               |              |              |
+|                           |              |              |                           |                      |        | suporte@maaslo.com.br | Execução: 41 |   |              |              |
+|                           |              |              |                           |                      |        | Transação:                               |              |              |
+| 2025-10-12 22:15:09       | 41           | N/A          | main                      | main.py              | 51     | ExecutionID: 41 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: SUCCESS                          |              |              |
+| 2025-10-12 22:15:09       | 41           | N/A          | main                      | main.py              | 58     | ExecutionID: 41 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: FINISHED                         |              |              |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+

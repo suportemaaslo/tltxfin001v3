@@ -1,0 +1,20 @@
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+|         TIMESTAMP         |    EXEC_ID   |   TRANS_ID   |          FUNCTION         |         FILE         |  LINE  |                  MESSAGE                 |   PROC_TYPE  |    STATUS    |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+| 2025-10-12 22:00:37       | 38           | N/A          | enviaremail               | gmailService.py      | 172    | Email 'Start' enviado para:              | system       | information  |
+|                           |              |              |                           |                      |        | julio.gomes@maaslo.com.br,               |              |              |
+|                           |              |              |                           |                      |        | suporte@maaslo.com.br | Execução: 38 |   |              |              |
+|                           |              |              |                           |                      |        | Transação:                               |              |              |
+| 2025-10-12 22:00:38       | 38           | N/A          | main                      | main.py              | 12     | ExecutionID: 38 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: STARTING                         |              |              |
+| 2025-10-12 22:00:39       | 38           | 15           | main                      | main.py              | 24     | Item Data: 15                            | system       | information  |
+| 2025-10-12 22:00:40       | 38           | 15           | main                      | main.py              | 29     | Uso do Item dentro do try                | system       | information  |
+| 2025-10-12 22:00:45       | 38           | N/A          | enviaremail               | gmailService.py      | 172    | Email 'Finish' enviado para:             | system       | information  |
+|                           |              |              |                           |                      |        | julio.gomes@maaslo.com.br,               |              |              |
+|                           |              |              |                           |                      |        | suporte@maaslo.com.br | Execução: 38 |   |              |              |
+|                           |              |              |                           |                      |        | Transação:                               |              |              |
+| 2025-10-12 22:00:45       | 38           | N/A          | main                      | main.py              | 44     | ExecutionID: 38 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: SUCCESS                          |              |              |
+| 2025-10-12 22:00:45       | 38           | N/A          | main                      | main.py              | 51     | ExecutionID: 38 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: FINISHED                         |              |              |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+

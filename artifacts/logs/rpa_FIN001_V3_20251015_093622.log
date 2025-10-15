@@ -1,0 +1,37 @@
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+|         TIMESTAMP         |    EXEC_ID   |   TRANS_ID   |          FUNCTION         |         FILE         |  LINE  |                  MESSAGE                 |   PROC_TYPE  |    STATUS    |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+| 2025-10-15 09:36:25       | 67           | N/A          | main                      | main.py              | 12     | ExecutionID: 67 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: STARTING                         |              |              |
+| 2025-10-15 09:36:26       | 67           | N/A          | verificarPasta            | verificarArquivoInpu | 20     | Iniciando verificação da pasta de        | system       | information  |
+|                           |              |              |                           |                      |        | entrada                                  |              |              |
+| 2025-10-15 09:36:26       | 67           | N/A          | verificarPasta            | verificarArquivoInpu | 38     | Feriados encontrados:                    | system       | information  |
+|                           |              |              |                           |                      |        | {datetime.date(2024, 1, 1),              |              |              |
+|                           |              |              |                           |                      |        | datetime.date(2025, 6, 19),              |              |              |
+|                           |              |              |                           |                      |        | datetime.date(2025, 11, 20),             |              |              |
+|                           |              |              |                           |                      |        | datetime.date(2025, 7, 9),               |              |              |
+|                           |              |              |                           |                      |        | datetime.date(2025, 12, 25)}             |              |              |
+| 2025-10-15 09:36:27       | 67           | N/A          | verificarPasta            | verificarArquivoInpu | 55     | Caminho da pasta a processar:            | system       | information  |
+|                           |              |              |                           |                      |        | U:\Financeiro\05- RPA\A                  |              |              |
+|                           |              |              |                           |                      |        | PROCESSAR\10.2025\14                     |              |              |
+| 2025-10-15 09:36:27       | 67           | N/A          | verificarPasta            | verificarArquivoInpu | 78     | Arquivos encontrados na pasta: [None,    | system       | information  |
+|                           |              |              |                           |                      |        | 'FORN_DW07_02_151025P_MOV.TXT',          |              |              |
+|                           |              |              |                           |                      |        | 'EXTREL_QFVD_02_151025P_MOV.TXT']        |              |              |
+| 2025-10-15 09:36:28       | 67           | N/A          | verificarPasta            | verificarArquivoInpu | 79     | Arquivo SAL encontrado: None             | system       | information  |
+| 2025-10-15 09:36:28       | 67           | N/A          | verificarPasta            | verificarArquivoInpu | 80     | Arquivo FORN encontrado:                 | system       | information  |
+|                           |              |              |                           |                      |        | FORN_DW07_02_151025P_MOV.TXT             |              |              |
+| 2025-10-15 09:36:28       | 67           | N/A          | verificarPasta            | verificarArquivoInpu | 81     | Arquivo EXTREL encontrado:               | system       | information  |
+|                           |              |              |                           |                      |        | EXTREL_QFVD_02_151025P_MOV.TXT           |              |              |
+| 2025-10-15 09:36:29       | 67           | N/A          | movimentarArquivoParaLoca | verificarArquivoInpu | 103    | Iniciando movimentação de arquivos para  | system       | information  |
+|                           |              |              |                           |                      |        | pasta temporária local: C:\BOT           |              |              |
+| 2025-10-15 09:36:29       | 67           | N/A          | movimentarArquivoParaLoca | verificarArquivoInpu | 118    | Arquivos movidos para pasta temporária   | system       | information  |
+|                           |              |              |                           |                      |        | local: ['C:\\BOT\\EXTREL_QFVD_02_151025P |              |              |
+|                           |              |              |                           |                      |        | _MOV.TXT',                               |              |              |
+|                           |              |              |                           |                      |        | 'C:\\BOT\\FORN_DW07_02_151025P_MOV.TXT'] |              |              |
+| 2025-10-15 09:36:30       | 67           | 24           | main                      | main.py              | 27     | Item Data: 24                            | system       | information  |
+| 2025-10-15 09:36:31       | 67           | 24           | main                      | main.py              | 33     | Uso do Item dentro do try                | system       | information  |
+| 2025-10-15 09:36:32       | 67           | N/A          | main                      | main.py              | 47     | ExecutionID: 67 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: SUCCESS                          |              |              |
+| 2025-10-15 09:36:32       | 67           | N/A          | main                      | main.py              | 54     | ExecutionID: 67 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: FINISHED                         |              |              |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+

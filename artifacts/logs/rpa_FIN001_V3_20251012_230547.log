@@ -1,0 +1,15 @@
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+|         TIMESTAMP         |    EXEC_ID   |   TRANS_ID   |          FUNCTION         |         FILE         |  LINE  |                  MESSAGE                 |   PROC_TYPE  |    STATUS    |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+| 2025-10-12 23:05:55       | 47           | N/A          | enviaremail               | gmailService.py      | 202    | Email 'Start' enviado para:              | system       | information  |
+|                           |              |              |                           |                      |        | julio.gomes@maaslo.com.br,               |              |              |
+|                           |              |              |                           |                      |        | suporte@maaslo.com.br | Execução: 47 |   |              |              |
+|                           |              |              |                           |                      |        | Transação:                               |              |              |
+| 2025-10-12 23:05:55       | 47           | N/A          | main                      | main.py              | 12     | ExecutionID: 47 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: STARTING                         |              |              |
+| 2025-10-12 23:06:20       | 47           | N/A          | enviaremail               | gmailService.py      | 202    | Email 'Error' enviado para:              | system       | information  |
+|                           |              |              |                           |                      |        | julio.gomes@maaslo.com.br,               |              |              |
+|                           |              |              |                           |                      |        | suporte@maaslo.com.br | Execução: 47 |   |              |              |
+|                           |              |              |                           |                      |        | Transação:                               |              |              |
+| 2025-10-12 23:06:25       | 47           | N/A          | main                      | main.py              | 52     | Error: Invalid file path or buffer       | system       | failure      |
+|                           |              |              |                           |                      |        | object type: <class 'dict'> - Line: 16   |              |              |

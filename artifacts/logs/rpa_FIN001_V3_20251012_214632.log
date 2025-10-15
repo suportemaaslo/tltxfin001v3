@@ -1,0 +1,34 @@
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+|         TIMESTAMP         |    EXEC_ID   |   TRANS_ID   |          FUNCTION         |         FILE         |  LINE  |                  MESSAGE                 |   PROC_TYPE  |    STATUS    |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+| 2025-10-12 21:46:35       | 35           | N/A          | enviaremail               | gmailService.py      | 60     | [EmailError] stage=dns_lookup;           | system       | failure      |
+|                           |              |              |                           |                      |        | type=gaierror; msg=[Errno 11001]         |              |              |
+|                           |              |              |                           |                      |        | getaddrinfo failed;                      |              |              |
+|                           |              |              |                           |                      |        | smtp_domain=http://teltex.com.br;        |              |              |
+|                           |              |              |                           |                      |        | smtp_port=587;                           |              |              |
+|                           |              |              |                           |                      |        | recipients=rpa@teltex.com.br;            |              |              |
+|                           |              |              |                           |                      |        | subject=Processo FIN001_ENVIO_SAL_FORN   |              |              |
+|                           |              |              |                           |                      |        | iniciado; exec=35; tx=; hint=Verifique   |              |              |
+|                           |              |              |                           |                      |        | 'credGmailDomain' (ex.: smtp.gmail.com)  |              |              |
+|                           |              |              |                           |                      |        | e DNS/resolução de nome; porta típica    |              |              |
+|                           |              |              |                           |                      |        | 587. - line: 977                         |              |              |
+| 2025-10-12 21:46:36       | 35           | N/A          | main                      | main.py              | 12     | ExecutionID: 35 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: STARTING                         |              |              |
+| 2025-10-12 21:46:37       | 35           | 12           | main                      | main.py              | 24     | Item Data: 12                            | system       | information  |
+| 2025-10-12 21:46:38       | 35           | 12           | main                      | main.py              | 29     | Uso do Item dentro do try                | system       | information  |
+| 2025-10-12 21:46:39       | 35           | N/A          | enviaremail               | gmailService.py      | 60     | [EmailError] stage=dns_lookup;           | system       | failure      |
+|                           |              |              |                           |                      |        | type=gaierror; msg=[Errno 11001]         |              |              |
+|                           |              |              |                           |                      |        | getaddrinfo failed;                      |              |              |
+|                           |              |              |                           |                      |        | smtp_domain=http://teltex.com.br;        |              |              |
+|                           |              |              |                           |                      |        | smtp_port=587;                           |              |              |
+|                           |              |              |                           |                      |        | recipients=rpa@teltex.com.br;            |              |              |
+|                           |              |              |                           |                      |        | subject=Processo FIN001_V3 concluído com |              |              |
+|                           |              |              |                           |                      |        | sucesso; exec=35; tx=; hint=Verifique    |              |              |
+|                           |              |              |                           |                      |        | 'credGmailDomain' (ex.: smtp.gmail.com)  |              |              |
+|                           |              |              |                           |                      |        | e DNS/resolução de nome; porta típica    |              |              |
+|                           |              |              |                           |                      |        | 587. - line: 977                         |              |              |
+| 2025-10-12 21:46:39       | 35           | N/A          | main                      | main.py              | 44     | ExecutionID: 35 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: SUCCESS                          |              |              |
+| 2025-10-12 21:46:40       | 35           | N/A          | main                      | main.py              | 51     | ExecutionID: 35 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: FINISHED                         |              |              |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+

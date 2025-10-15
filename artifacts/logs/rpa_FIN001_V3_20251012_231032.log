@@ -1,0 +1,14 @@
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+|         TIMESTAMP         |    EXEC_ID   |   TRANS_ID   |          FUNCTION         |         FILE         |  LINE  |                  MESSAGE                 |   PROC_TYPE  |    STATUS    |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+| 2025-10-12 23:12:27       | 50           | N/A          | main                      | main.py              | 12     | ExecutionID: 50 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: STARTING                         |              |              |
+| 2025-10-12 23:14:20       | 50           | N/A          | main                      | verificarArquivoInpu | 22     | Error: Invalid file path or buffer       | system       | failure      |
+|                           |              |              |                           |                      |        | object type: <class 'dict'> - Line: 18   |              |              |
+| 2025-10-12 23:14:20       | 50           | 21           | main                      | main.py              | 27     | Item Data: 21                            | system       | information  |
+| 2025-10-12 23:14:21       | 50           | 21           | main                      | main.py              | 33     | Uso do Item dentro do try                | system       | information  |
+| 2025-10-12 23:14:22       | 50           | N/A          | main                      | main.py              | 47     | ExecutionID: 50 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: SUCCESS                          |              |              |
+| 2025-10-12 23:14:22       | 50           | N/A          | main                      | main.py              | 54     | ExecutionID: 50 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: FINISHED                         |              |              |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+

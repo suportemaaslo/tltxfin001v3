@@ -1,0 +1,8 @@
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+|         TIMESTAMP         |    EXEC_ID   |   TRANS_ID   |          FUNCTION         |         FILE         |  LINE  |                  MESSAGE                 |   PROC_TYPE  |    STATUS    |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+| 2025-10-14 22:43:13       | 58           | N/A          | main                      | main.py              | 12     | ExecutionID: 58 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: STARTING                         |              |              |
+| 2025-10-14 22:43:18       | 58           | N/A          | verificarArquivoInput     | verificarArquivoInpu | 81     | Error: Não Houveram Arquivos para        | system       | failure      |
+|                           |              |              |                           |                      |        | processar na Pasta: U:\Financeiro\05-    |              |              |
+|                           |              |              |                           |                      |        | RPA\A PROCESSAR\10.2025\13 - Line: 75    |              |              |

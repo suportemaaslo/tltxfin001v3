@@ -1,0 +1,31 @@
+{
+    "process": {
+        "processname": "FIN001_V3",
+        "developer": "JulioGomes",
+        "description": "Automacao Responsavel por Subir Arquivos SAL e Forn",
+        "idprocess": "1"
+    },
+    "robot": {
+        "idprocess": 1,
+        "robotname": "FIN001_ENVIO_SAL_FORN",
+        "robotcode": "1",
+        "version": "3.0.0"
+    },
+    "folders": {
+        "folderlog": "artifacts\\logs",
+        "foldertemp": "data\\temp",
+        "folderinput": "data\\input",
+        "folderoutput": "data\\output",
+        "caminhoRede": "U:\\Financeiro\\05- RPA\\A PROCESSAR",
+        "CaminhoTempLocal": "C:\\BOT"
+    },
+    "email": {
+        "remetente": "rpa@teltex.com.br",
+        "destinatario": "julio.gomes@maaslo.com.br, suporte@maaslo.com.br",
+        "copiacc": "lmap qdjv gqtd eynw"
+    },
+    "configFile": {
+        "file": "C:\\RPA\\Financeiro\\FIN001_V3\\artifacts\\configfile\\Config.xlsx",
+        "sheet": "Feriado"
+    }
+}

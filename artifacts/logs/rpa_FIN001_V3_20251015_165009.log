@@ -1,0 +1,33 @@
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+|         TIMESTAMP         |    EXEC_ID   |   TRANS_ID   |          FUNCTION         |         FILE         |  LINE  |                  MESSAGE                 |   PROC_TYPE  |    STATUS    |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+| 2025-10-15 16:50:12       | 68           | N/A          | main                      | main.py              | 12     | ExecutionID: 68 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: STARTING                         |              |              |
+| 2025-10-15 16:50:13       | 68           | N/A          | verificarPasta            | verificarArquivoInpu | 20     | Iniciando verificação da pasta de        | system       | information  |
+|                           |              |              |                           |                      |        | entrada                                  |              |              |
+| 2025-10-15 16:50:14       | 68           | N/A          | verificarPasta            | verificarArquivoInpu | 38     | Feriados encontrados:                    | system       | information  |
+|                           |              |              |                           |                      |        | {datetime.date(2024, 1, 1),              |              |              |
+|                           |              |              |                           |                      |        | datetime.date(2025, 11, 20),             |              |              |
+|                           |              |              |                           |                      |        | datetime.date(2025, 7, 9),               |              |              |
+|                           |              |              |                           |                      |        | datetime.date(2025, 6, 19),              |              |              |
+|                           |              |              |                           |                      |        | datetime.date(2025, 12, 25)}             |              |              |
+| 2025-10-15 16:50:14       | 68           | N/A          | verificarPasta            | verificarArquivoInpu | 55     | Caminho da pasta a processar:            | system       | information  |
+|                           |              |              |                           |                      |        | U:\Financeiro\05- RPA\A                  |              |              |
+|                           |              |              |                           |                      |        | PROCESSAR\10.2025\14                     |              |              |
+| 2025-10-15 16:50:15       | 68           | N/A          | verificarPasta            | verificarArquivoInpu | 78     | Arquivos encontrados na pasta:           | system       | information  |
+|                           |              |              |                           |                      |        | ['SAL_DW07_02_131025P_MOV.TXT',          |              |              |
+|                           |              |              |                           |                      |        | 'FORN_DW07_02_151025P_MOV.TXT',          |              |              |
+|                           |              |              |                           |                      |        | 'EXTREL_QFVD_02_151025P_MOV.TXT']        |              |              |
+| 2025-10-15 16:50:15       | 68           | N/A          | verificarPasta            | verificarArquivoInpu | 79     | Arquivo SAL encontrado:                  | system       | information  |
+|                           |              |              |                           |                      |        | SAL_DW07_02_131025P_MOV.TXT              |              |              |
+| 2025-10-15 16:50:16       | 68           | N/A          | verificarPasta            | verificarArquivoInpu | 80     | Arquivo FORN encontrado:                 | system       | information  |
+|                           |              |              |                           |                      |        | FORN_DW07_02_151025P_MOV.TXT             |              |              |
+| 2025-10-15 16:50:16       | 68           | N/A          | verificarPasta            | verificarArquivoInpu | 81     | Arquivo EXTREL encontrado:               | system       | information  |
+|                           |              |              |                           |                      |        | EXTREL_QFVD_02_151025P_MOV.TXT           |              |              |
+| 2025-10-15 16:52:30       | 68           | N/A          | movimentarArquivoParaLoca | verificarArquivoInpu | 103    | Iniciando movimentação de arquivos para  | system       | information  |
+|                           |              |              |                           |                      |        | pasta temporária local: C:\BOT           |              |              |
+| 2025-10-15 16:52:31       | 68           | N/A          | movimentarArquivoParaLoca | verificarArquivoInpu | 118    | Arquivos movidos para pasta temporária   | system       | information  |
+|                           |              |              |                           |                      |        | local: ['C:\\BOT\\EXTREL_QFVD_02_151025P |              |              |
+|                           |              |              |                           |                      |        | _MOV.TXT',                               |              |              |
+|                           |              |              |                           |                      |        | 'C:\\BOT\\FORN_DW07_02_151025P_MOV.TXT', |              |              |
+|                           |              |              |                           |                      |        | 'C:\\BOT\\SAL_DW07_02_131025P_MOV.TXT']  |              |              |

@@ -1,0 +1,16 @@
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+|         TIMESTAMP         |    EXEC_ID   |   TRANS_ID   |          FUNCTION         |         FILE         |  LINE  |                  MESSAGE                 |   PROC_TYPE  |    STATUS    |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+| 2025-10-12 20:18:45       | 32           | N/A          | enviaremail               | gmailService.py      | 108    | Falha ao enviar email: [Errno 11001]     | system       | failure      |
+|                           |              |              |                           |                      |        | getaddrinfo failed                       |              |              |
+| 2025-10-12 20:18:45       | 32           | N/A          | main                      | main.py              | 16     | ExecutionID: 32 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: STARTING                         |              |              |
+| 2025-10-12 20:18:47       | 32           | 9            | main                      | main.py              | 28     | Item Data: 9                             | system       | information  |
+| 2025-10-12 20:18:47       | 32           | 9            | main                      | main.py              | 33     | Uso do Item dentro do try                | system       | information  |
+| 2025-10-12 20:18:48       | 32           | N/A          | enviaremail               | gmailService.py      | 108    | Falha ao enviar email: [Errno 11001]     | system       | failure      |
+|                           |              |              |                           |                      |        | getaddrinfo failed                       |              |              |
+| 2025-10-12 20:18:49       | 32           | N/A          | main                      | main.py              | 61     | ExecutionID: 32 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: SUCCESS                          |              |              |
+| 2025-10-12 20:18:49       | 32           | N/A          | main                      | main.py              | 68     | ExecutionID: 32 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: FINISHED                         |              |              |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+

@@ -1,0 +1,12 @@
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+|         TIMESTAMP         |    EXEC_ID   |   TRANS_ID   |          FUNCTION         |         FILE         |  LINE  |                  MESSAGE                 |   PROC_TYPE  |    STATUS    |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
+| 2025-10-15 00:27:17       | 64           | N/A          | main                      | main.py              | 12     | ExecutionID: 64 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: STARTING                         |              |              |
+| 2025-10-15 00:27:18       | 64           | N/A          | verificarPasta            | verificarArquivoInpu | 86     | Error: 'EnhancedLogger' object has no    | system       | failure      |
+|                           |              |              |                           |                      |        | attribute 'info' - Line: 20              |              |              |
+| 2025-10-15 00:27:19       | 64           | N/A          | main                      | main.py              | 52     | Error: 'EnhancedLogger' object has no    | system       | failure      |
+|                           |              |              |                           |                      |        | attribute 'info' - Line: 17              |              |              |
+| 2025-10-15 00:27:19       | 64           | N/A          | main                      | main.py              | 54     | ExecutionID: 64 - Process: FIN001_V3 -   | system       | information  |
+|                           |              |              |                           |                      |        | Status: FINISHED                         |              |              |
++---------------------------+--------------+--------------+---------------------------+----------------------+--------+------------------------------------------+--------------+--------------+
